@@ -12,8 +12,8 @@ Time spent: 3 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.4
   - [X] GIF Walkthrough: ![Alt Text](https://github.com/rdiaz002/Week_7_Project_WordPress_vs_Kali/blob/master/first_exploit.gif)
-  - [X] Steps to recreate: 
-         Leave a comment with the following content:
+  - [X] Steps to recreate: <br />
+         Leave a comment with the following content:<br />
          *\<b onmouseover="alert('This is just a vulnerability')">click me!\</b>*
          
   - [X] Affected source code:
