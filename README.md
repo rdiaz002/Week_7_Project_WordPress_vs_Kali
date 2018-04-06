@@ -11,7 +11,7 @@ Time spent: 3 hours spent in total
     - Vulnerability types:XSS
     - Tested in version: 4.2
     - Fixed in version: 4.4
-  - [ ] GIF Walkthrough: <img src='blob:https://imgur.com/8a6672bb-9564-47a5-a706-13a5db818b68' />
+  - [ ] GIF Walkthrough: <img src="/rdiaz002/Week_7_Project_WordPress_vs_Kali/blob/master/first_exploit.gif?raw=true" alt="first_exploit.gif">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
