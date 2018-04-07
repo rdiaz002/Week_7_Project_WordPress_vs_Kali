@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: 3 hours spent in total
+Time spent: 4 hours spent in total
 
 > Objective: Find, analyze, recreate, and document 3 vulnerabilities affecting an old version of WordPress
 
@@ -31,8 +31,9 @@ Time spent: 3 hours spent in total
         -upload file to wordpress
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
+    
 ### 3. Authenticated Cross Site Request Forgery
-  - [X] Summary: Create a hidden form that can be submitted by another user when the page loads 
+  - [X] Summary: Create a hidden form that can be submitted by another user when the page loads. Example below leads to infinite loop. 
     - Vulnerability types: CSRF
     - Tested in version: 4.2
     - Fixed in version: 4.4
@@ -60,8 +61,6 @@ Time spent: 3 hours spent in total
 
 ## Assets
 
-List any additional assets, such as scripts or files
-
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
@@ -70,8 +69,9 @@ List any additional assets, such as scripts or files
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Describe any challenges encountered while doing the work
+Challenges: 
+  Continuous trial and error to test exploits. 
+  upgrading and downgrading WordPress.  
 
 ## License
 
