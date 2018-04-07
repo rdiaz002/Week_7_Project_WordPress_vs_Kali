@@ -28,7 +28,9 @@ Time spent: 4 hours spent in total
   - [X] Steps to recreate: <br />
         -create an image file or download an image file. <br />
         -add some javascript to the end of its filename. ex.(\<img src=# onerror=alert(document.cookie)>) <br />
-        -upload file to wordpress
+        -upload file to wordpress <br />
+        `Windows does not support filenames of this type` <br />
+        `This was completed on kali linux` 
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
     
