@@ -10,7 +10,7 @@ Time spent: 4 hours spent in total
   - [X] Summary: inject java script code as a comment 
     - Vulnerability types:XSS
     - Tested in version: 4.2
-    - Fixed in version: 4.4
+    - Fixed in version: 4.2.1
   - [X] GIF Walkthrough: ![Alt Text](https://github.com/rdiaz002/Week_7_Project_WordPress_vs_Kali/blob/master/first_exploit.gif)
   - [X] Steps to recreate: <br />
          -Leave a comment with the following content:<br />
@@ -38,7 +38,7 @@ Time spent: 4 hours spent in total
   - [X] Summary: Create a hidden form that can be submitted by another user when the page loads. Example below leads to infinite loop. 
     - Vulnerability types: CSRF
     - Tested in version: 4.2
-    - Fixed in version: 4.4
+    - Fixed in version: 4.2.1
   - [X] GIF Walkthrough: ![Alt Text](https://github.com/rdiaz002/Week_7_Project_WordPress_vs_Kali/blob/master/third_exploit.gif)
   - [X] Steps to recreate: <br />
         -create a new comment that includes the javascript code for a new form <br />
