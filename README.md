@@ -6,8 +6,8 @@ Time spent: 3 hours spent in total
 
 ## Pentesting Report
 
-1. Authenticated Stored Cross-Site Scripting (XSS)
-  - [X] Summary: 
+### 1. Authenticated Stored Cross-Site Scripting (XSS)
+  - [X] Summary: inject java script code as a comment 
     - Vulnerability types:XSS
     - Tested in version: 4.2
     - Fixed in version: 4.4
@@ -19,19 +19,19 @@ Time spent: 3 hours spent in total
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/4.2-branch/wp-comments-post.php)
     
-2. Cross-Site Scripting with Image File
+### 2. Cross-Site Scripting with Image File
   - [X] Summary: Upload an image file with some javascript at the end of its file name
     - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.2.10
   - [X] GIF Walkthrough: ![Alt Text](https://github.com/rdiaz002/Week_7_Project_WordPress_vs_Kali/blob/master/second_exploit.gif)
   - [X] Steps to recreate: <br />
-        create an image file or download an image file. 
-        add some javascript to the end of its filename. ex.(\<img src=# onerror=alert(document.cookie)>)
+        create an image file or download an image file. <br />
+        add some javascript to the end of its filename. ex.(\<img src=# onerror=alert(document.cookie)>) <br />
         upload file to wordpress
   - [X] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-3. (Required) Vulnerability Name or ID
+    - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
+### 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
