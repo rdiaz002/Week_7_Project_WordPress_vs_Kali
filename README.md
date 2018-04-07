@@ -19,7 +19,7 @@ Time spent: 3 hours spent in total
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/4.2-branch/wp-comments-post.php)
     
-### 2. Cross-Site Scripting with Image File
+### 2. Authenticated Cross-Site Scripting with Image File
   - [X] Summary: Upload an image file with some javascript at the end of its file name
     - Vulnerability types:XSS
     - Tested in version:4.2
@@ -31,7 +31,7 @@ Time spent: 3 hours spent in total
         -upload file to wordpress
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
-### 3. Cross Site Request Forgery
+### 3. Authenticated Cross Site Request Forgery
   - [X] Summary: Create a hidden form that can be submitted by another user when the page loads 
     - Vulnerability types: CSRF
     - Tested in version: 4.2
@@ -40,6 +40,7 @@ Time spent: 3 hours spent in total
   - [X] Steps to recreate: <br />
         -create a new comment that includes the javascript code for a new form <br />
         -below that comment create an iframe that will run the form when it loads <br />
+        -submit comment <br />
         -refresh page <br /> 
         
         Proof of Concept:
